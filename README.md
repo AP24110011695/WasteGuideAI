@@ -2,9 +2,16 @@
 
 A Sustainable Waste Management Assistant powered by Generative AI.
 
+## 🎥 Project Demonstration
+
+Project demonstration video:
+
+https://drive.google.com/file/d/1CoMK0CaV7F17CWF4WGkf1A0tUy-x43uY/view?usp=drive_link
+
 ## Tech Stack
 
 ### Frontend
+
 - React 19
 - Vite
 - Tailwind CSS
@@ -14,6 +21,7 @@ A Sustainable Waste Management Assistant powered by Generative AI.
 - React Leaflet
 
 ### Backend
+
 - Flask
 - Flask-CORS
 - Firebase Firestore
@@ -54,6 +62,7 @@ InternshipMe/
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.10+
 - Node.js 18+
 - Firebase project with Firestore and Authentication enabled
@@ -87,13 +96,13 @@ Frontend runs on `http://localhost:5173`
 
 Copy `.env.example` to `backend/.env` and fill in:
 
-| Variable | Description |
-|---|---|
-| `FLASK_SECRET_KEY` | Secret key for Flask sessions |
-| `GROQ_API_KEY` | Groq API key for AI model access |
-| `FIREBASE_PROJECT_ID` | Firebase project ID |
-| `FIREBASE_PRIVATE_KEY` | Firebase service account private key |
-| `FIREBASE_CLIENT_EMAIL` | Firebase service account email |
+| Variable                | Description                          |
+| ----------------------- | ------------------------------------ |
+| `FLASK_SECRET_KEY`      | Secret key for Flask sessions        |
+| `GROQ_API_KEY`          | Groq API key for AI model access     |
+| `FIREBASE_PROJECT_ID`   | Firebase project ID                  |
+| `FIREBASE_PRIVATE_KEY`  | Firebase service account private key |
+| `FIREBASE_CLIENT_EMAIL` | Firebase service account email       |
 
 ## License
 
